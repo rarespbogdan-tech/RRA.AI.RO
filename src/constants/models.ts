@@ -1,0 +1,48 @@
+import { AiModelConfig } from '../types';
+
+export const AI_MODELS: AiModelConfig[] = [
+  {
+    id: 'rares.ro.ai',
+    name: 'rares.ro.ai',
+    provider: 'Motor Autonom',
+    badge: 'Ultra-Rapid',
+    tagline: 'Viteză instantanee, 100% disponibilitate & zero erori',
+    color: 'from-purple-500 to-indigo-600',
+    accentBorder: 'border-purple-500/60',
+    iconName: 'Zap',
+    description: 'Motorul local dedicat rares.ro.ai, creat pentru răspunsuri fără latență și memorie integrată.',
+  },
+  {
+    id: 'gemini',
+    name: 'Gemini 3.8 Flash',
+    provider: 'Google DeepMind',
+    badge: 'Google AI',
+    tagline: 'Multimodalitate, viteză și analiză extinsă',
+    color: 'from-blue-500 to-cyan-500',
+    accentBorder: 'border-blue-500/60',
+    iconName: 'Sparkles',
+    description: 'Modelul oficial Google DeepMind optimizat pentru sarcini diverse și procesare avansată.',
+  },
+  {
+    id: 'chatgpt',
+    name: 'ChatGPT (GPT-4o)',
+    provider: 'OpenAI',
+    badge: 'OpenAI',
+    tagline: 'Raționament logic avansat și claritate pedagogică',
+    color: 'from-emerald-500 to-teal-600',
+    accentBorder: 'border-emerald-500/60',
+    iconName: 'Bot',
+    description: 'Formatare clară, stil conversațional pragmatic și structurare riguroasă în stilul OpenAI.',
+  },
+  {
+    id: 'claude',
+    name: 'Claude Sonnet 5.5',
+    provider: 'Anthropic',
+    badge: 'Sonnet 5.5',
+    tagline: 'Profunzime intelectuală, nuanțe și cod arhitectural de vârf',
+    color: 'from-amber-500 to-orange-600',
+    accentBorder: 'border-amber-500/60',
+    iconName: 'Brain',
+    description: 'Modelul de elită Anthropic Claude Sonnet 5.5 / 3.5, specializat în raționament profund, cod complex și analiză critică.',
+  },
+];

@@ -1,0 +1,6 @@
+{
+  "name": "rares.ro.ai - Asistent Inteligent",
+  "description": "Chatbox inteligent ultra-rapid rares.ro.ai cu memorie avansată pe termen lung, moduri specializate și generare instantanee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
